@@ -1,0 +1,16 @@
+<body>
+<div class="container-xl" *ngIf="juegos">
+    <div class="plantilla">
+       <h1 style="color: white;">{{titulo}}</h1> 
+        <div class="imagenes">
+            <img class="img-fluid" src="{{imagen}}" alt="imagenJuego">
+            <img [ngClass]="{'siEs':favs, 'noEs':!favs}" (click)="setFavoritos()"  src="../../assets/estrella-vacia.png" alt="imagenEstrella">
+        </div>
+        <div class="textos">
+            <p style="color: white;">{{year}}</p>
+            <p style="color: white;">{{descripcion}}</p>
+        </div>
+    </div>
+    <button  (click)="goBack()">Atras</button>
+</div>
+</body>

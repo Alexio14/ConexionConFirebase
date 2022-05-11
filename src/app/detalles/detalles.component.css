@@ -1,0 +1,33 @@
+body{
+    height: 555px;
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+}
+.plantilla{
+    display: flex;
+    flex-direction: column;
+}
+.imagenes{
+    height: 50%;
+    flex-direction: row;
+}
+.textos{
+    height: 54%;
+    flex-direction: column;
+}
+.siEs{
+    width: 60px;
+    height: 60px;
+    background-color: darkorange;
+}
+.noEs{
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+}
+.container-xl{
+    margin-top: 25px;
+}
+

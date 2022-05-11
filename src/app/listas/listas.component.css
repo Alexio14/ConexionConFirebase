@@ -1,0 +1,62 @@
+
+.siEs{
+    width: 90px;
+    height: 30px;
+    color:rgb(255, 255, 255);
+}
+.noEs{
+    width: 130px;
+    height: 50px;
+    border: solid 2px ;
+    border-radius: 8px;
+    border-color: lightskyblue;
+    color: lightskyblue;
+}
+
+  .contenedor{
+      display: flex;
+      height: 700px;
+      align-items: center;
+  }
+  .tarjetas{
+      width: 95%;
+      display: flex;
+      flex-direction: row;
+      
+    justify-content: space-between;
+  }
+  .tarje{
+      
+    flex-wrap: wrap;
+  }
+  img{
+      height: 250px;
+      width: 300px;
+  }
+  .main-container {
+    padding: 50px;
+    margin-top: 150px;
+  }
+  .box {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, minmax(100px, 1fr));
+  }
+  .box a {
+    transition: transform .3s;  
+    margin: 15px;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    text-align: center;
+  }
+
+  
+
+  .box a:hover {
+    transition: transform .3s;
+    -ms-transform: scale(1.4);
+    -webkit-transform: scale(1.4);  
+    transform: scale(1.4);
+  }
+  .box img {
+    border-radius: 2px;
+  }

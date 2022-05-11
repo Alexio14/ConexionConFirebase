@@ -1,0 +1,37 @@
+<section class="product spad">
+  <div class="container" >
+    <div class="row" >
+      <div *ngFor="let item of videojuegos; index as i">
+        <div class="trending__product">
+          <div class="row">
+            <div class="col-lg-8 col-md-8 col-sm-8">
+              <div class="section-title" >
+                <h4>{{item.categoria}}</h4>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4">
+              <div class="btn__all" (click)="mostrar(item.categoria)">
+                <a class="primary-btn">Mostrar Mas <span class="arrow_right"></span></a>
+              </div>
+            </div>
+          </div>
+          <div class="row" >
+            <div class="col-lg-3 col-md-6 col-sm-6 "  *ngFor="let juego of item.juegos; index as f">
+              <div class="product__item" *ngIf="f<4">
+                <div class="product__item__pic set-bg" (click)="navegacionDirecta(item.categoria,f)" style="background-image: url('{{juego.imagen}}')">
+                  <div class="ep">{{juego.year}}</div>
+                </div>
+                <div class="product__item__text">
+                  <ul>
+                    <li>{{item.categoria}}</li>
+                    <li>{{juego.title}}</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+</section>

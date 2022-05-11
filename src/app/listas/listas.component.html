@@ -1,0 +1,31 @@
+<section class="product spad" *ngIf="videojuegos">
+  <div class="container" >
+    <div class="row" >
+      <div>
+        <div class="trending__product">
+          <div class="row">
+            <div class="col-lg-8 col-md-8 col-sm-8">
+              <div class="section-title" >
+                <h4>{{videojuegos[idCategoria].categoria}}</h4>
+              </div>
+            </div>
+          </div>
+          <div class="row" >
+            <div class="col-lg-3 col-md-6 col-sm-6 "  *ngFor="let juego of videojuegos[idCategoria].juegos; index as f">
+              <div class="product__item">
+                <div class="product__item__pic set-bg" (click)="goDetalles(f)" style="background-image: url('{{juego.imagen}}')">
+                  <div class="ep">{{juego.year}}</div>
+                </div>
+                <div class="product__item__text">
+                  <ul>
+                    <li>{{juego.title}}</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+</section>

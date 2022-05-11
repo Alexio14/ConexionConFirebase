@@ -1,0 +1,37 @@
+
+<header id="aqui" class="header">
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-2">
+              <div class="header__logo">
+                  <a href="./index.html">
+                      VideoJuegos
+                  </a>
+              </div>
+          </div>
+          <div class="col-lg-8">
+              <div class="header__nav">
+                  <nav class="header__menu mobile-menu">
+                      <ul>
+                          <li class="active" (click)="goInicio()"><a>Inicio</a></li>
+                          <li><a class="title" >Categories <span class="arrow_carrot-down"></span></a>
+                              <ul class="dropdown">
+                                  <li  *ngFor="let category of videojuegos; index as i"><span (click)="goCat(videojuegos[i].categoria)"><a>{{category.categoria}}</a></span></li>
+                                  </ul>
+                          </li>
+                          <li><a class="title">Our Blog</a></li>
+                          <li><a class="title">Contacts</a></li>
+                      </ul>
+                  </nav>
+              </div>
+          </div>
+          <div class="col-lg-2">
+              <div class="header__right">
+                  <a  class="search-switch"><span class="icon_search"></span></a>
+                  <a ><span class="icon_profile"></span></a>
+              </div>
+          </div>
+      </div>
+      <div id="mobile-menu-wrap"></div>
+  </div>
+</header>
