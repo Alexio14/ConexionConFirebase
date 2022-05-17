@@ -5,6 +5,9 @@ import { ListasComponent } from './listas/listas.component';
 import { DetallesComponent } from './detalles/detalles.component';
 import { LoginGuard } from './login.guard';
 import { LoginComponent } from './login/login.component';
+import { SingupComponent } from './singup/singup.component';
+import { FormularioComponent } from './formulario/formulario.component';
+import { AdministracionComponent } from './administracion/administracion.component';
 
 
 const routes: Routes = [
@@ -17,7 +20,18 @@ const routes: Routes = [
     canActivate:[LoginGuard]
   },
   {
+    path: "administracion", component: AdministracionComponent,
+    canActivate:[LoginGuard]
+  },
+  {
+    path: "inicio/contacto", component: FormularioComponent,
+    canActivate:[LoginGuard]
+  },
+  {
     path: "login", component: LoginComponent,
+  },
+  {
+    path: "singup", component: SingupComponent,
   },
   {
     path: "inicio/:category", component: ListasComponent,

@@ -4,9 +4,9 @@
       <div class="row">
           <div class="col-lg-2">
               <div class="header__logo">
-                  <a href="./index.html">
-                      VideoJuegos
-                  </a>
+                  <a (click)="goInicio()">
+                  <img src="../../assets/mando.png" alt="mando">
+                </a>
               </div>
           </div>
           <div class="col-lg-8">
@@ -19,8 +19,8 @@
                                   <li  *ngFor="let category of videojuegos; index as i"><span (click)="goCat(videojuegos[i].categoria)"><a>{{category.categoria}}</a></span></li>
                                   </ul>
                           </li>
-                          <li><a class="title">Our Blog</a></li>
-                          <li><a class="title">Contacts</a></li>
+                          <li><a class="title" (click)="goContacto()">Contacto</a></li>
+                          <li *ngIf="admin"><a class="title" (click)="goAdmin()">Administración</a></li>
                       </ul>
                   </nav>
               </div>
@@ -28,6 +28,7 @@
           <div class="col-lg-2">
               <div class="header__right">
                   <a  class="search-switch"><span class="icon_search"></span></a>
+                  <a href="#"(click)="goLog()"><span class="Log">Log Out</span></a>
                   <a ><span class="icon_profile"></span></a>
               </div>
           </div>

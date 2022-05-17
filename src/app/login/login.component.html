@@ -1,3 +1,4 @@
+<!--
 <div *ngIf="loading">
   <img  src="../assets/cargando.gif" alt="loading">
 </div>
@@ -23,4 +24,42 @@
     </main>
 </div>   
 </body>
-</div>
+</div>-->
+
+<section class="login spad">
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-6">
+              <div class="login__form">
+                  <h3>Inicio sesion</h3>
+                  <form action="#">
+                      <div class="input__item">
+                        <input type="email" [(ngModel)]="user" class="form-control" id="floatingInput" placeholder="name@email.com">
+                        <label style="color: white;" for="floatingInput">Email address</label>
+                          <span class="icon_mail"></span>
+                      </div>
+                      <div class="input__item">
+                        <input type="password" [(ngModel)]="pass" class="form-control" id="floatingPassword" placeholder="Password">
+                        <label style="color: white;" for="floatingPassword">Password</label>
+                          <span class="icon_lock"></span>
+                      </div>
+                      <button (click)="iniciar()" type="submit" class="site-btn">Inicia Sesion</button>
+                  </form>
+              </div>
+          </div>
+          <div class="col-lg-6">
+              <div class="login__register">
+                  <h3>¿Todavia no tienes Cuenta?</h3>
+                  <a style="color: white; cursor:pointer" class="primary-btn" (click)="crear()">Registrate Aquí</a>
+              </div>
+          </div>
+      </div>
+      <div class="login__social">
+          <div class="row d-flex justify-content-center">
+              <div class="col-lg-6">
+                  
+              </div>
+          </div>
+      </div>
+  </div>
+</section>

@@ -15,6 +15,10 @@ import { AngularFireDatabaseModule } from '@angular/fire/compat/database';
 import { environment } from 'src/environments/environment';
 import { UsuariosService } from './servicios/usuarios.service';
 import { FootComponent } from './foot/foot.component';
+import { SingupComponent } from './singup/singup.component';
+import { CargandoComponent } from './cargando/cargando.component';
+import { FormularioComponent } from './formulario/formulario.component';
+import { AdministracionComponent } from './administracion/administracion.component';
 
 
 
@@ -27,6 +31,10 @@ import { FootComponent } from './foot/foot.component';
     EncabezadoComponent,
     LoginComponent,
     FootComponent,
+    SingupComponent,
+    CargandoComponent,
+    FormularioComponent,
+    AdministracionComponent,
   ],
   imports: [
     BrowserModule,

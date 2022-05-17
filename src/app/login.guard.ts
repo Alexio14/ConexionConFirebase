@@ -10,9 +10,10 @@ export class LoginGuard implements CanActivate {
   
   canActivate(route: ActivatedRouteSnapshot,state: RouterStateSnapshot): Observable<boolean | UrlTree> | 
   Promise<boolean | UrlTree> | boolean | UrlTree {
+   let storage = this.service.getStorage();
    
-    if(!this.service.getDatos()){
-      return false;
+    if(sessionStorage.length == 0){
+      return false;  
     }else{
       return true;
     }

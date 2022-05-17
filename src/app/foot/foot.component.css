@@ -1,0 +1,12 @@
+.header__logo{
+    font-size: 35px;
+}
+.title{
+    color: #b7b7b7;
+}
+.title:hover{
+    color: white;
+}
+a{
+    cursor: pointer;
+}

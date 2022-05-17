@@ -10,3 +10,13 @@
 a{
     cursor: pointer;
 }
+.Log{
+    cursor: pointer;
+    color: #b7b7b7;
+}
+.Log:hover{
+    color: white;
+}
+img{
+    width: 90px;
+}

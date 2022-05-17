@@ -42,7 +42,8 @@ export class UsuariosService {
   emailSignup(email: string, password: string) {
     this.afAuth.createUserWithEmailAndPassword(email, password)
       .then(value => {
-        console.log('Sucess', value);
+        this.service.setDatos(true);
+        this.router.navigate(['/inicio']);
       })
       .catch(error => {
         console.log('Something went wrong: ', error);
@@ -53,5 +54,4 @@ export class UsuariosService {
     delete categoriaMod.$key;
     this.db.list('/videojuegos').update($key,categoriaMod);
   }
-
 }

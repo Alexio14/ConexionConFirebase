@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ConexionesService } from '../conexiones.service';
 import { UsuariosService } from '../servicios/usuarios.service';
+import { Router } from '@angular/router';
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
@@ -13,7 +14,7 @@ export class LoginComponent implements OnInit  {
   public usuarios: any;
   public videojuegos : Array<any> = [];
   public loading: boolean = false;
-  constructor( private info : UsuariosService) { }
+  constructor( private info : UsuariosService, private service : ConexionesService, private router:Router) { }
   ngOnInit(): void {
     this.info.getVideojuegosDB().subscribe((res) => {
       this.videojuegos = res;
@@ -21,8 +22,9 @@ export class LoginComponent implements OnInit  {
   }
   iniciar(){
     this.info.login(this.user,this.pass);
+    this.service.setStorage(this.user); 
   }
   crear(){
-    this.info.emailSignup(this.user,this.pass);
+    this.router.navigate(['singup']);
   }
 }

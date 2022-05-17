@@ -1,0 +1,55 @@
+<cargando></cargando>
+<app-encabezado></app-encabezado>
+<h1 style="color: white;">Contacta con nosotros</h1>
+<section class="login spad">
+    <div class="container">
+        <form action="#">
+            <table>
+                <tr>
+                    <td>Nombre:</td>
+                    <td><input type="text" [ngModel]="nombre" name="Nombre" value="" size="25" maxlength="20" id="nombre" required></td>
+                </tr>
+                <tr>
+                    <td>Apellidos:</td>
+                    <td><input type="text" [ngModel]="apellidos" name="apellidos" value="" size="25" maxlength="20" id="apellidos" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>DNI:</td>
+                    <td><input type="text" [ngModel]="dni" name="DNI" value="" size="25" maxlength="20" id="DNI" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Añade una imagen:</td>
+                    <td><input type="file" id="imagensubida" name="imagensubida"
+                            accept="image/png, .jpeg, .jpg, image/gif">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Fecha de Nacimiento: </td>
+                    <td><input type="date" [ngModel]="fecha" name="Fecha inicio" value="" size="25" maxlength="20" id="fecha" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Pulsa aqui para aceptar las cookies</td>
+                    <td><input type="checkbox" [ngModel]="cookies" id="validarCk"></td>
+                </tr>
+                <br><br>
+                <tr>
+                    <td>
+                        <div class="enviar">
+                            <button class="boton" (click)="envio()" type="button" value="Enviar datos">Enviar
+                                datos</button>
+                        </div>
+                    </td>
+                    <td>
+                        <button class="boton" type="button" value="Anular" onclick="anulacion()">Anular
+                            Imagen</button>
+                    </td>
+
+                </tr>
+            </table>
+        </form>
+
+    </div>
+</section>

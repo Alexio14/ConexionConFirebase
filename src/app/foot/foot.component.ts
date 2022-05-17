@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { UsuariosService } from '../servicios/usuarios.service';
 
 @Component({
   selector: 'app-foot',
@@ -7,12 +9,24 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FootComponent implements OnInit {
 
-  constructor() { }
+  constructor(private info : UsuariosService, public router: Router) { }
 
   ngOnInit(): void {
   }
-
+ 
   arriba(){
-    window.location.replace('/');
+    window.scrollTo({
+      top: 0,
+      behavior:'smooth'
+    })
+  }
+  goCat(){
+    this.router.navigate(['inicio']);
+  }
+  goInicio(){
+    this.router.navigate(['inicio']);
+  }
+  goContacto(){
+    this.router.navigate(['inicio/contacto']);
   }
 }

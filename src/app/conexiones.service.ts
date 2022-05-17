@@ -21,12 +21,14 @@ export class ConexionesService {
   public pass : any;
   ///////////////////////////////////////////////////////////////////////////
 
-  setStorage(email:string,pass:any){
+  setStorage(email:any){
     this.user = email;
-    this.pass = pass;
-    sessionStorage.setItem(this.user,this.pass);
+    sessionStorage.setItem('usuario', this.user);
   }
- 
+  getStorage(){
+    let sesiones = sessionStorage.getItem("usuario");
+    return sesiones;
+  }
  ////////////////////////////////////////////////////////////////////////////////////////////////////////
   setDatos(coincide:any){
     this.coincide=coincide;
