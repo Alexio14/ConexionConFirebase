@@ -60,3 +60,10 @@
   .box img {
     border-radius: 2px;
   }
+  .primary-btn{
+    color: white;
+    cursor: pointer;
+}
+.primary-btn:hover{
+    color: aqua;
+}

@@ -1,0 +1,12 @@
+{
+    "tabla" : [{
+        "datos": [{
+            "title": "Valorant",
+            "year": "2021",
+            "description": "Valorant es un videojuego de disparos en primera persona multijugador gratuito desarrollado y publicado por Riot Games... ",
+            "imagen": "../assets/valorant.jfif",
+            "precio": "Gratis",
+            "favoritos": false
+        }]
+    }]
+}

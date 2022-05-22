@@ -19,6 +19,7 @@ import { SingupComponent } from './singup/singup.component';
 import { CargandoComponent } from './cargando/cargando.component';
 import { FormularioComponent } from './formulario/formulario.component';
 import { AdministracionComponent } from './administracion/administracion.component';
+import { EditarComponent } from './editar/editar.component';
 
 
 
@@ -35,6 +36,7 @@ import { AdministracionComponent } from './administracion/administracion.compone
     CargandoComponent,
     FormularioComponent,
     AdministracionComponent,
+    EditarComponent,
   ],
   imports: [
     BrowserModule,

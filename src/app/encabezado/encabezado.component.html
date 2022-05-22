@@ -5,7 +5,7 @@
           <div class="col-lg-2">
               <div class="header__logo">
                   <a (click)="goInicio()">
-                  <img src="../../assets/mando.png" alt="mando">
+                  <img src="https://firebasestorage.googleapis.com/v0/b/conexionconangular.appspot.com/o/mando%20(1).png?alt=media&token=2ddc5cbf-965f-48e3-be42-f6b037e70d11" alt="mando">
                 </a>
               </div>
           </div>
@@ -14,12 +14,12 @@
                   <nav class="header__menu mobile-menu">
                       <ul>
                           <li class="active" (click)="goInicio()"><a>Inicio</a></li>
-                          <li><a class="title" >Categories <span class="arrow_carrot-down"></span></a>
+                          <li><a class="title" >Categorias <span class="arrow_carrot-down"></span></a>
                               <ul class="dropdown">
                                   <li  *ngFor="let category of videojuegos; index as i"><span (click)="goCat(videojuegos[i].categoria)"><a>{{category.categoria}}</a></span></li>
                                   </ul>
                           </li>
-                          <li><a class="title" (click)="goContacto()">Contacto</a></li>
+                          <li><a class="title" (click)="goContacto()">Sorteo</a></li>
                           <li *ngIf="admin"><a class="title" (click)="goAdmin()">Administración</a></li>
                       </ul>
                   </nav>
@@ -33,6 +33,23 @@
               </div>
           </div>
       </div>
-      <div id="mobile-menu-wrap"></div>
+      <div id="mobile-menu-wrap">
+        <div class="slicknav_menu">
+            <a (click)="setMenu()" aria-haspopup="true" role="button" tabindex="0" class="slicknav_btn" [ngClass]="{'slicknav_collapse': !mostrarMenu, 'slicknav_open': mostrarMenu}" style="outline: none;"><span class="slicknav_menutxt">MENU</span><span class="slicknav_icon"><span class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span></span></a>
+            <nav class="slicknav_nav dropdown" [ngClass]="{'slicknav_hidden': !mostrarMenu}" role="menu">
+                <ul>
+                    <li class="active"><a class="enlace" (click)="goInicio()">Inicio</a></li>
+                    <li class="slicknav_parent" [ngClass]="{'slicknav_collapse': !mostrarCategorias}"><a role="menuitem" aria-haspopup="true" tabindex="-1" (click)="setMenuCategorias()" class="slicknav_item slicknav_row" style="outline: none;"><a >Categorias</a>
+                        <span >{{flecha}}</span></a>
+                        <ul class="dropdown" [ngClass]="{'slicknav_hidden': !mostrarCategorias}" role="menu">
+                            <li role="menuitem" *ngFor="let category of videojuegos"><a (click)="mostrarCategoria(category.categoria)" class="categoria">{{category.categoria}}</a></li>
+                        </ul>
+                    </li>
+                    <li class="active"><a class="enlace" (click)="goContacto()">Sorteo</a></li>
+                    <li class="active" *ngIf="admin"><a class="enlace" (click)="goAdmin()">Administracion</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
   </div>
 </header>

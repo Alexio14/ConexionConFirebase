@@ -20,3 +20,9 @@ a{
 img{
     width: 90px;
 }
+.slicknav_hidden {
+    display: none;
+}
+.display-block {
+    display: block;
+}

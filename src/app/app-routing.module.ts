@@ -8,6 +8,7 @@ import { LoginComponent } from './login/login.component';
 import { SingupComponent } from './singup/singup.component';
 import { FormularioComponent } from './formulario/formulario.component';
 import { AdministracionComponent } from './administracion/administracion.component';
+import { EditarComponent } from './editar/editar.component';
 
 
 const routes: Routes = [
@@ -32,6 +33,10 @@ const routes: Routes = [
   },
   {
     path: "singup", component: SingupComponent,
+  },
+  {
+    path: "editar/:key", component: EditarComponent,
+    canActivate:[LoginGuard]
   },
   {
     path: "inicio/:category", component: ListasComponent,

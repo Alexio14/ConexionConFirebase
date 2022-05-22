@@ -14,6 +14,7 @@ export class DetallesComponent implements OnInit {
   public titulo: any;
   public imagen: any;
   public year: any;
+  public precio : any;
   public descripcion: any;
   public juegos: any;
   public favs = false;
@@ -41,13 +42,14 @@ export class DetallesComponent implements OnInit {
   }
   compruebaEquipo() {
     this.titulo = this.juegos.juegos[this.id].title;
+    this.precio = this.juegos.juegos[this.id].precio;
     this.imagen = this.juegos.juegos[this.id].imagen;
     this.year = this.juegos.juegos[this.id].year;
     this.descripcion = this.juegos.juegos[this.id].description;
     this.favs = this.juegos.juegos[this.id].favoritos;
   }
   goBack() {
-    this.router.navigate(['inicio/' + this.categoria]);
+    history.go(-1);
   }
   setFavoritos() {
     this.favs = !this.favs;
@@ -56,7 +58,6 @@ export class DetallesComponent implements OnInit {
         if (this.videojuegos[k].juegos[v].title == this.videojuegos[this.idGame].juegos[this.id].title) {
           this.videojuegos[k].juegos[v].favoritos = this.favs;
           this.info.editJuego(this.videojuegos[k]);
-         // this.service.setVideojuegos(this.videojuegos);
         }
       }
     }

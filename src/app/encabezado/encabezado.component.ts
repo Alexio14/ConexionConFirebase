@@ -10,6 +10,9 @@ import { UsuariosService } from '../servicios/usuarios.service';
 export class EncabezadoComponent implements OnInit {
   public videojuegos:any;
   public admin : any;
+  public flecha = "►";
+  public mostrarMenu = false;
+  public mostrarCategorias = false;
   constructor( private info : UsuariosService, public router: Router) { }
 
   ngOnInit(): void {
@@ -29,11 +32,32 @@ export class EncabezadoComponent implements OnInit {
     this.router.navigate(['inicio/contacto']);
   }
   goLog(){
-    this.router.navigate(['login']);
+    this.limpiarcookies();
     sessionStorage.clear();
-  }
+    this.router.navigate(['login']);  
+}
+limpiarcookies(){
+  document.cookie.split(";").forEach(function(c) {
+    document.cookie = c.replace(/^ +/, "").replace(/=.*/, "=;expires=" + new Date().toUTCString() + ";path=/")});
+}
   goAdmin(){
     this.router.navigate(['administracion']);
   }
-
+  
+mostrarCategoria(cat: string) {
+    this.mostrarMenu = false;
+    this.mostrarCategorias = false;
+    this.router.navigate(['inicio/' + cat]);
+  }
+  setMenu() {
+    this.mostrarMenu = !this.mostrarMenu;
+  }
+  setMenuCategorias() {
+    this.mostrarCategorias = !this.mostrarCategorias;
+    if (this.mostrarCategorias === true) {
+      this.flecha = "▼";
+    } else {
+      this.flecha = "►";
+    }
+  }
 }

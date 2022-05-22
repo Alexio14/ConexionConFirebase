@@ -44,7 +44,7 @@ export class ListasComponent implements OnInit {
     }
   }
   goBack(){
-    this.router.navigate(['inicio']);
+    history.go(-1);
   }
   goDetalles(juego:any){
     this.router.navigate(['inicio/'+this.categoria+'/detalles/'+juego]);

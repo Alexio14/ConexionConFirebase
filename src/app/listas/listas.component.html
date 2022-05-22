@@ -12,6 +12,11 @@
                 <h4>{{videojuegos[idCategoria].categoria}}</h4>
               </div>
             </div>
+            <div class="col-lg-4 col-md-4 col-sm-4">
+              <div class="btn__all" (click)="goBack()">
+                <a class="primary-btn"><span class="arrow_left"></span> Volver</a>
+              </div>
+            </div>
           </div>
           <div class="row" >
             <div class="col-lg-3 col-md-6 col-sm-6 "  *ngFor="let juego of videojuegos[idCategoria].juegos; index as f">

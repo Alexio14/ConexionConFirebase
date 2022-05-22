@@ -5,7 +5,7 @@
                     "title": "Valorant",
                     "year": "2021",
                     "description": "Valorant es un videojuego de disparos en primera persona multijugador gratuito desarrollado y publicado por Riot Games... ",
-                    "imagen": "../assets/valorant.jfif",
+                    "imagen": "https://firebasestorage.googleapis.com/v0/b/conexionconangular.appspot.com/o/valorant.jfif?alt=media&token=0cc8dc98-e407-4e78-b626-752e2a09350a",
                     "precio": "Gratis",
                     "favoritos": false
                 },
@@ -13,7 +13,7 @@
                     "title": "Counter Strike",
                     "year": "1999",
                     "description": "Counter-Strike es un videojuego de disparos en primera persona multijugador (ya sea en LAN o en línea) desarrollado por Valve para Microsoft Windows. Es una modificación completa del juego Half-Life...",
-                    "imagen": "../assets/counter.jfif",
+                    "imagen": "https://firebasestorage.googleapis.com/v0/b/conexionconangular.appspot.com/o/counter.jfif?alt=media&token=f8cfaefa-8e7a-44da-9d99-267c9ddb159a",
                     "precio": "11.99€",
                     "favoritos": false
                 },
@@ -21,7 +21,7 @@
                     "title": "Fornite",
                     "year": "2017",
                     "description": "Fortnite es el nombre de un videojuego creado por Epic Games, una compañía estadounidense. Fue presentado en 2017 y dispone de diversas modalidades de juego que tienen el mismo motor...",
-                    "imagen": "../assets/fornite.jfif",
+                    "imagen": "https://firebasestorage.googleapis.com/v0/b/conexionconangular.appspot.com/o/fornite.jfif?alt=media&token=7bf13030-db98-4aec-b6d2-6dbf267072ad",
                     "precio": "25€",
                     "favoritos": false
                 },
@@ -29,7 +29,7 @@
                     "title": "Tom Clancy's Rainbow Six",
                     "year": "2020",
                     "description": "Tom Clancy's Rainbow Six: Siege es un videojuego de disparos táctico en línea desarrollado por Ubisoft Montreal y distribuidor por Ubisoft. Salió a la venta en todo el mundo para Microsoft Windows, PlayStation 4 y Xbox One el 1 de diciembre de 2015 y para PlayStation 5 y Xbox Series X|S el 1 de diciembre de 2020.",
-                    "imagen": "../assets/rainbow.jfif",
+                    "imagen": "https://firebasestorage.googleapis.com/v0/b/conexionconangular.appspot.com/o/rainbow.jfif?alt=media&token=7b11e005-78db-45c0-addf-293a15009d0b",
                     "precio": "25€",
                     "favoritos": false
                 },
@@ -37,7 +37,7 @@
                     "title": "Apex",
                     "year": "2019",
                     "description": "Apex Legends es un juego de disparos de héroes Battle Royale gratuito desarrollado por Respawn Entertainment y publicado por Electronic Arts . Fue lanzado para Microsoft Windows , PlayStation 4 y Xbox One en febrero de 2019, para Nintendo Switch en marzo de 2021 y para PlayStation 5 y Xbox Series X/S en marzo de 2022.",
-                    "imagen": "../assets/apex.jpg",
+                    "imagen": "https://firebasestorage.googleapis.com/v0/b/conexionconangular.appspot.com/o/apex.jpg?alt=media&token=790a26c6-c4fb-402a-8c33-bae15d8e172f",
                     "precio": "25€",
                     "favoritos": false
                 },
@@ -45,7 +45,7 @@
                     "title": "Overwatch",
                     "year": "2015",
                     "description": "Overwatch es un videojuego de disparos en primera persona multijugador, desarrollado por Blizzard Entertainment. Fue lanzado al público el 24 de mayo del 2016, para las plataformas PlayStation 4, Xbox One y Microsoft Windows; posteriormente fue lanzado para Nintendo Switch.1​ El juego fue anunciado el 7 de noviembre de 2014 durante la BlizzCon 2014,2​ y su versión beta cerrada fue estrenada el 27 de octubre de 2015.",
-                    "imagen": "../assets/overwatch.jfif",
+                    "imagen": "https://firebasestorage.googleapis.com/v0/b/conexionconangular.appspot.com/o/overwatch.jfif?alt=media&token=e14d198f-d16a-482a-9cc8-47a7ac6747c3",
                     "precio": "25€",
                     "favoritos": false
                 }
@@ -57,7 +57,7 @@
                     "title": "GTAV",
                     "year": "2013",
                     "description": "GTA es una saga con más de 15 títulos ambientados en diferentes escenarios. En todos los casos, un criminal realiza distintas misiones a cambio de dinero. Sus encargos suelen ser asesinar personas, secuestrar hombres adinerados, robar coches, asaltar bancos...",
-                    "imagen": "../assets/gta.jfif",
+                    "imagen": "https://firebasestorage.googleapis.com/v0/b/conexionconangular.appspot.com/o/gta.jfif?alt=media&token=fdcd1382-2995-4f28-a7b0-27c6df13a77e",
                     "precio": "49.99€",
                     "favoritos": false
                 },
@@ -65,7 +65,7 @@
                     "title": "Assasins Creed",
                     "year": "2007",
                     "description": "Assassin's Creed es una serie de videojuegos, historietas, libros, y cortos de ficción histórica. Los videojuegos son de acción-aventura, sigilo y de mundo abierto...",
-                    "imagen": "../assets/assasins.jfif",
+                    "imagen": "https://firebasestorage.googleapis.com/v0/b/conexionconangular.appspot.com/o/assasins.jfif?alt=media&token=5f30e5d2-40e3-4ef2-b36d-a5e660af6ecd",
                     "precio": "29.99",
                     "favoritos": false
                 },
@@ -73,7 +73,7 @@
                     "title": "Age Of Empires",
                     "year": "1997",
                     "description": "Age of Empires (también conocido como Age of Empires I) es un videojuego de estrategia en tiempo real para computadoras personales, el primero de la serie homónima, lanzado el 26 de octubre de 1997 y escenificado en una línea del tiempo de 3000 años, desde la temprana Edad de piedra hasta la Edad del hierro...",
-                    "imagen": "../assets/AOE.jfif",
+                    "imagen": "https://firebasestorage.googleapis.com/v0/b/conexionconangular.appspot.com/o/AOE.jfif?alt=media&token=861ef736-920c-42ac-aba5-a6a334af6517",
                     "precio": "39.99",
                     "favoritos": false
                 },
@@ -81,7 +81,7 @@
                     "title": "God of War",
                     "year": "2018",
                     "description": "God of War es una serie de videojuegos hack and slash creada por SCE Santa Monica Studio y distribuida por Sony Computer Entertainment. Se basa en las aventuras de un semidiós espartano, Kratos, quien se enfrenta a diversos personajes de la mitología griega y nórdica, tanto héroes (Heracles, Teseo, Perseo, etc.); especies mitológicas",
-                    "imagen": "../assets/GoW.jfif",
+                    "imagen": "https://firebasestorage.googleapis.com/v0/b/conexionconangular.appspot.com/o/GoW.jfif?alt=media&token=a0eae2b0-3326-41bf-92db-eb5ec98c012b",
                     "precio": "39.99",
                     "favoritos": false
                 },
@@ -89,7 +89,7 @@
                     "title": "Red Dead Redemption",
                     "year": "2004",
                     "description": "Red Dead Redemption es un videojuego no lineal de acción-aventura wéstern desarrollado por Rockstar San Diego. El videojuego fue anunciado oficialmente el 4 de febrero de 2009, y se lanzó el 18 de mayo de 2010 en Norteamérica y el 21 de mayo en Europa y Australia para Xbox 360 y PlayStation 3.2​ Es considerado el sucesor espiritual de Red Dead Revolver, lanzado en 2004",
-                    "imagen": "../assets/RdR.jfif",
+                    "imagen": "https://firebasestorage.googleapis.com/v0/b/conexionconangular.appspot.com/o/RdR.jfif?alt=media&token=e74505c8-5e28-4a1e-afb3-54d39309d819",
                     "precio": "39.99",
                     "favoritos": false
                 },
@@ -97,7 +97,7 @@
                     "title": "Borderlands 2",
                     "year": "2009",
                     "description": "Borderlands 2 es un videojuego de disparos en primera persona con elementos de rol, se trata de la secuela del videojuego de 2009, Borderlands. Fue desarrollado por Gearbox Software y distribuido por 2K Games para las plataformas Microsoft Windows, PlayStation 3 y Xbox 360.",
-                    "imagen": "../assets/borderlands.jfif",
+                    "imagen": "https://firebasestorage.googleapis.com/v0/b/conexionconangular.appspot.com/o/borderlands.jfif?alt=media&token=b7052626-8abf-4ec0-93cd-693eb0da6f79",
                     "precio": "39.99",
                     "favoritos": false
                 },
@@ -105,7 +105,7 @@
                     "title": "Halo2",
                     "year": "2004",
                     "description": "Halo 2 es un videojuego de disparos en primera persona desarrollado por Bungie Studios y lanzado para la consola Xbox en 2004.4​ Es la segunda entrega en la franquicia de Halo y su trama continúa los sucesos relatados en Halo: Combat Evolved.",
-                    "imagen": "../assets/halo.jfif",
+                    "imagen": "https://firebasestorage.googleapis.com/v0/b/conexionconangular.appspot.com/o/halo.jfif?alt=media&token=96953e0a-af05-48b5-949a-416bd25cde3e",
                     "precio": "39.99",
                     "favoritos": false
                 },
@@ -113,7 +113,7 @@
                     "title": "Zelda: Ocarina of Time",
                     "year": "1998",
                     "description": "La historia del juego se enfoca en el joven héroe Link, quien emprende una aventura en el reino de Hyrule para detener a Ganondorf, rey de la tribu Gerudo, antes de que encuentre la Trifuerza, una reliquia sagrada capaz de concederle cualquier deseo a su poseedor.",
-                    "imagen": "../assets/zelda.jfif",
+                    "imagen": "https://firebasestorage.googleapis.com/v0/b/conexionconangular.appspot.com/o/MicrosoftTeams-image.png?alt=media&token=6647e626-3e5b-46c5-b340-78892e6e7e4c",
                     "precio": "39.99",
                     "favoritos": false
                 }
@@ -125,7 +125,7 @@
                     "title": "Valorant",
                     "year": "2021",
                     "description": "Valorant es un videojuego de disparos en primera persona multijugador gratuito desarrollado y publicado por Riot Games... ",
-                    "imagen": "../assets/valorant.jfif",
+                    "imagen": "https://firebasestorage.googleapis.com/v0/b/conexionconangular.appspot.com/o/valorant.jfif?alt=media&token=0cc8dc98-e407-4e78-b626-752e2a09350a",
                     "precio": "Gratis",
                     "favoritos": false
                 },
@@ -133,7 +133,7 @@
                     "title": "Counter Strike",
                     "year": "1999",
                     "description": "Counter-Strike es un videojuego de disparos en primera persona multijugador (ya sea en LAN o en línea) desarrollado por Valve para Microsoft Windows. Es una modificación completa del juego Half-Life...",
-                    "imagen": "../assets/counter.jfif",
+                    "imagen": "https://firebasestorage.googleapis.com/v0/b/conexionconangular.appspot.com/o/counter.jfif?alt=media&token=f8cfaefa-8e7a-44da-9d99-267c9ddb159a",
                     "precio": "11.99",
                     "favoritos": false
                 },
@@ -141,7 +141,7 @@
                     "title": "League Of Legends",
                     "year": "2009",
                     "description": "League of Legends (también conocido por sus siglas LoL) es un videojuego del género multijugador de arena de batalla en línea (MOBA) y deporte electrónico el cual fue desarrollado por Riot Games...",
-                    "imagen": "../assets/lol.jfif",
+                    "imagen": "https://firebasestorage.googleapis.com/v0/b/conexionconangular.appspot.com/o/lol.jfif?alt=media&token=e057d60b-6928-409c-b889-67fb65add99d",
                     "precio": "Gratis",
                     "favoritos": false
                 },
@@ -149,7 +149,7 @@
                     "title": "Teamfigth Tactics",
                     "year": "2020",
                     "description": "Teamfight Tactics (TFT) es un videojuego auto battler desarrollado y publicado por Riot Games. Inicialmente lanzado como modo de juego para League of Legends para Windows y macOS...",
-                    "imagen": "../assets/tft.jfif",
+                    "imagen": "https://firebasestorage.googleapis.com/v0/b/conexionconangular.appspot.com/o/tft.jfif?alt=media&token=b9a0ef45-dbfc-4ca6-8831-3beade1e231e",
                     "precio": "Gratis",
                     "favoritos": false
                 },
@@ -157,7 +157,7 @@
                     "title": "Fornite",
                     "year": "2017",
                     "description": "Fortnite es el nombre de un videojuego creado por Epic Games, una compañía estadounidense. Fue presentado en 2017 y dispone de diversas modalidades de juego que tienen el mismo motor...",
-                    "imagen": "../assets/fornite.jfif",
+                    "imagen": "https://firebasestorage.googleapis.com/v0/b/conexionconangular.appspot.com/o/fornite.jfif?alt=media&token=7bf13030-db98-4aec-b6d2-6dbf267072ad",
                     "precio": "25€",
                     "favoritos": false
                 },
@@ -165,7 +165,7 @@
                     "title": "Rocket League",
                     "year": "2015",
                     "description": "Rocket League es un videojuego que combina el fútbol con los vehículos. Fue desarrollado por Psyonix y lanzado el 7 de julio de 2015. Fue lanzado Free to play en septiembre de 2020.",
-                    "imagen": "../assets/rocket.jfif",
+                    "imagen": "https://firebasestorage.googleapis.com/v0/b/conexionconangular.appspot.com/o/rocket.jfif?alt=media&token=ca1c758f-d298-4391-8087-9dbf9c98e0ad",
                     "precio": "15.99€",
                     "favoritos": false
                 },
@@ -173,7 +173,7 @@
                     "title": "Halo2",
                     "year": "2004",
                     "description": "Halo 2 es un videojuego de disparos en primera persona desarrollado por Bungie Studios y lanzado para la consola Xbox en 2004.4​ Es la segunda entrega en la franquicia de Halo y su trama continúa los sucesos relatados en Halo: Combat Evolved.",
-                    "imagen": "../assets/halo.jfif",
+                    "imagen": "https://firebasestorage.googleapis.com/v0/b/conexionconangular.appspot.com/o/halo.jfif?alt=media&token=96953e0a-af05-48b5-949a-416bd25cde3e",
                     "precio": "39.99",
                     "favoritos": false
                 }
@@ -185,7 +185,7 @@
                     "title": "Minecraft",
                     "year": "2011",
                     "description": "Minecraft es un videojuego de construcción de tipo «mundo abierto» ...",
-                    "imagen": "../assets/minecraft.jfif",
+                    "imagen": "https://firebasestorage.googleapis.com/v0/b/conexionconangular.appspot.com/o/minecraft.jfif?alt=media&token=4eb5cb1f-5689-4b93-8b6d-9e315a98c002",
                     "precio": "29.99€",
                     "favoritos": false
                 },
@@ -193,7 +193,7 @@
                     "title": "Fornite",
                     "year": "2017",
                     "description": "Fortnite es el nombre de un videojuego creado por Epic Games, una compañía estadounidense. Fue presentado en 2017 y dispone de diversas modalidades de juego que tienen el mismo motor...",
-                    "imagen": "../assets/fornite.jfif",
+                    "imagen": "https://firebasestorage.googleapis.com/v0/b/conexionconangular.appspot.com/o/fornite.jfif?alt=media&token=7bf13030-db98-4aec-b6d2-6dbf267072ad",
                     "precio": "25€",
                     "favoritos": false
                 },
@@ -201,7 +201,7 @@
                     "title": "Assasins Creed",
                     "year": "2007",
                     "description": "Assassin's Creed es una serie de videojuegos, historietas, libros, y cortos de ficción histórica. Los videojuegos son de acción-aventura, sigilo y de mundo abierto...",
-                    "imagen": "../assets/assasins.jfif",
+                    "imagen": "https://firebasestorage.googleapis.com/v0/b/conexionconangular.appspot.com/o/assasins.jfif?alt=media&token=5f30e5d2-40e3-4ef2-b36d-a5e660af6ecd",
                     "precio": "29.99",
                     "favoritos": false
                 },
@@ -209,7 +209,7 @@
                     "title": "Age Of Empires",
                     "year": "1997",
                     "description": "Age of Empires (también conocido como Age of Empires I) es un videojuego de estrategia en tiempo real para computadoras personales, el primero de la serie homónima, lanzado el 26 de octubre de 1997 y escenificado en una línea del tiempo de 3000 años, desde la temprana Edad de piedra hasta la Edad del hierro...",
-                    "imagen": "../assets/AOE.jfif",
+                    "imagen": "https://firebasestorage.googleapis.com/v0/b/conexionconangular.appspot.com/o/AOE.jfif?alt=media&token=861ef736-920c-42ac-aba5-a6a334af6517",
                     "precio": "39.99",
                     "favoritos": false
                 },
@@ -217,7 +217,7 @@
                     "title": "Zelda: Ocarina of Time",
                     "year": "1998",
                     "description": "La historia del juego se enfoca en el joven héroe Link, quien emprende una aventura en el reino de Hyrule para detener a Ganondorf, rey de la tribu Gerudo, antes de que encuentre la Trifuerza, una reliquia sagrada capaz de concederle cualquier deseo a su poseedor.",
-                    "imagen": "../assets/zelda.jfif",
+                    "imagen": "https://firebasestorage.googleapis.com/v0/b/conexionconangular.appspot.com/o/MicrosoftTeams-image.png?alt=media&token=6647e626-3e5b-46c5-b340-78892e6e7e4c",
                     "precio": "39.99",
                     "favoritos": false
                 },
@@ -225,7 +225,7 @@
                     "title": "Red Dead Redemption",
                     "year": "2004",
                     "description": "Red Dead Redemption es un videojuego no lineal de acción-aventura wéstern desarrollado por Rockstar San Diego. El videojuego fue anunciado oficialmente el 4 de febrero de 2009, y se lanzó el 18 de mayo de 2010 en Norteamérica y el 21 de mayo en Europa y Australia para Xbox 360 y PlayStation 3.2​ Es considerado el sucesor espiritual de Red Dead Revolver, lanzado en 2004",
-                    "imagen": "../assets/RdR.jfif",
+                    "imagen": "https://firebasestorage.googleapis.com/v0/b/conexionconangular.appspot.com/o/RdR.jfif?alt=media&token=e74505c8-5e28-4a1e-afb3-54d39309d819",
                     "precio": "39.99",
                     "favoritos": false
                 },
@@ -233,7 +233,7 @@
                     "title": "Mario Kart 8",
                     "year": "2014",
                     "description": "La jugabilidad principal sigue siendo la misma de las ediciones anteriores de Mario Kart. Incluye el mismo diseño de Karts de Mario Kart 7, se puede planear con ala deltas y conducir bajo el agua como en la entrega anterior. Las motocicletas introducidas en Mario Kart Wii reapareceren.",
-                    "imagen": "../assets/Mario.jfif",
+                    "imagen": "https://firebasestorage.googleapis.com/v0/b/conexionconangular.appspot.com/o/Mario.jfif?alt=media&token=26e55a8c-c211-4d7f-91b5-906be2c1367a",
                     "precio": "39.99",
                     "favoritos": false
                 }
@@ -241,5 +241,12 @@
             ]
         }
 
-    ]
+    ],
+    "formulario": [{
+        "nombre": "alex",
+        "apellidos": "diaz",
+        "dni":"13425678A",
+        "sexo": "hombre", 
+        "fecha":"2020-12-17"
+    }]
 }

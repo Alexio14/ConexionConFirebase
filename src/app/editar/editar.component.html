@@ -1,0 +1,32 @@
+<cargando></cargando>
+<app-encabezado></app-encabezado>
+<section class="login spad">
+    <h2 style="color: white;">Aqui puedes editar los datos</h2> 
+    <h3 style="color: white;">de los participantes</h3> 
+<div class="container">
+            <div class="login__form">
+                <form action="" *ngIf="formulario">
+                    <div class="mb-3">
+                        <input class="form-control" type="text" [(ngModel)]="formulario.nombre" name="nombre" value="{{formulario.nombre}}">
+                    </div>
+                    <div class="mb-3">
+                        <input class="form-control" type="text" [(ngModel)]="formulario.apellidos" name="apellido" value="{{formulario.apellidos}}">
+                    </div>
+                    <div class="mb-3">
+                        <input class="form-control" type="text" [(ngModel)]="formulario.dni" name="dni" value="{{formulario.dni}}">
+                    </div>
+                    <div class="mb-3">
+                        <select class="form-select" aria-label="Default select example" [(ngModel)]="formulario.sexo" value="{{formulario.sexo}}" name="select">
+                            <option value="hombre">Hombre</option>
+                            <option value="mujer" selected>Mujer</option>
+                            <option value="otro">Otro</option>
+                         </select>
+                    </div>
+                    <div class="mb-3">
+                        <input class="form-control" type="text" [(ngModel)]="formulario.fecha" name="fecha" value="{{formulario.fecha}}">
+                    </div>
+                    <button class="btn btn-primary"  (click)="confirmar()" (click)="goAdmin()"  type="button">Confirmar</button>
+                </form>
+            </div>
+        </div>
+</section>

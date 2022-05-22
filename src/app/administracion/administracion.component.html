@@ -1,3 +1,41 @@
 <cargando></cargando>
 <app-encabezado></app-encabezado>
-<p>administracion works!</p>
+<div class="container">
+    <h3 class="top" style="color: white;">Este es el control de Admin sobre la base de Datos:</h3>
+    <div>
+        <table id="tabla">
+            <th colspan="7">
+                <h4>Tabla Formulario</h4>
+            </th>
+            <tr *ngFor="let item of formulario;index as i">
+                <td><button (click)="editar(item.$key)" type="button">editar</button></td>
+                <td><button (click)="borrar(item.$key)" type="button">borrar</button></td>
+                <td>{{item.nombre}}</td>
+                <td>{{item.apellidos}}</td>
+                <td>{{item.dni}}</td>
+                <td>{{item.sexo}}</td>
+                <td>{{item.fecha}}</td>
+            </tr>
+        </table>
+    </div>
+    <div>
+    <h3 style="color: white;">Tablas de Categorias de Videojuegos:</h3>
+    <div class="row">
+        <table class="col-lg-5" *ngFor="let item of videojuegos; index as i">
+            <div class="product__item" >
+            <th colspan="6">
+                <h4>Tabla {{item.categoria}}</h4>
+            </th>
+            <tr *ngFor="let juego of item.juegos; index as f">
+                
+                <td><button (click)="navegacionDirecta(item.categoria,f)" type="button">Detalles</button></td>
+                <td>{{juego.title}}</td>
+                <td>{{juego.year}}</td>
+                <td>{{juego.precio}}</td>
+                <td><img src="{{juego.imagen}}" alt=""></td>
+            </tr>
+        </div>
+        </table>
+    </div>
+    </div>
+</div>
